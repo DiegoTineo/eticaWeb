@@ -93,8 +93,12 @@ section {
 }
 
 .btn-brand:hover {
-   background-color: #3d50ff;
+   background-color: #1f36ff;
    color: #fff;
+}
+.btn-light:hover{
+   background-color: rgb(212, 211, 211) ;
+   color: black;
 }
 
 .section-intro {
