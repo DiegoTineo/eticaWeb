@@ -13,6 +13,9 @@ h1,h2,h3,h4,h5,h6 {
    /* text-transform: uppercase; */
    color: #11245A;
 }
+.footer-top h1, h2, h3, h4, h5, h6{
+   color: #ffffff;
+}
 
 .title-sm {
    font-size: 16px;
@@ -48,20 +51,24 @@ section {
 .logo-text {
    font-size: 22px;
    text-transform: uppercase;
-   color: #11245A !important;
+   color: #ffffff !important;
 }
 .navbar .nav-link {
    font-size: 12px;
    text-transform: uppercase;
-   letter-spacing: 1px;
+   letter-spacing: 1px; 
+}
+.navbar-light .navbar-nav .nav-link{
+   color: #acacac;
 }
 
 .navbar-light .navbar-nav .nav-link.active {
-   color: #3d50ff;
+   color: #ffffff;
 }
 
 #home {
-   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(53, 53, 53, 0.8)), url(../img/hero_img.jpg);
+   /* background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(53, 53, 53, 0.8)), url(../img/hero_img.jpg); */
+   background: linear-gradient(rgba(11, 41, 117, 0.904), rgba(0, 0, 0, 0.8)), url(../img/hero.jpg);
    min-height: 100vh;
    background-size: cover;
    background-position: center;
@@ -71,7 +78,7 @@ section {
 }
 
 #unidadHero {
-   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(53, 53, 53, 0.8)), url(../img/hero_img.jpg);
+   background: linear-gradient(rgba(11, 41, 117, 0.904), rgba(0, 0, 0, 0.8)), url(../img/unidad1Hero.jpg);
    min-height: 20vh;
    background-size: cover;
    background-position: center;
@@ -106,8 +113,14 @@ section {
    background-color: #1f36ff;
    color: #fff;
 }
+
+.btn-light {
+   border-radius: 0.05rem;
+}
+
 .btn-light:hover{
-   box-shadow: 0px 0px 0px 2px rgb(255, 255, 255);
+   box-shadow: 0px 0px 0px 4px rgb(255, 255, 255);
+   color: blue;
 }
 
 .section-intro {
@@ -296,17 +309,18 @@ form .form-control:focus {
 .footer-top {
    padding-top: 80px;
    padding-bottom: 30px;
+   color: rgba(255, 255, 255, 0.848);
 }
 
 .footer-bottom {
    padding-top: 30px;
    padding-bottom: 30px;
-   border-top: 1px solid rgba(0, 0, 0, 0.1);
+   color: rgba(255, 255, 255, 0.848);
 }
 
 footer .footer-links a,
 footer .social-icons a {
-   color: #898fa1;
+   color: rgba(255, 255, 255, 0.848);
 }
 
 footer .social-icons a {
@@ -320,5 +334,5 @@ footer .footer-links a {
 
 footer .social-icons a:hover,
 footer .footer-links a:hover {
-   color: #3d50ff;
+   color: #3d98ff;
 }
